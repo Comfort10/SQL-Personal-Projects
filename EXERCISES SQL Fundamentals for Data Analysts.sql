@@ -8,6 +8,22 @@ Hint: Since line number is the lowest level of detail in the FactInternetSales t
 BY. 
 */
 
+SELECT 
+    SalesOrderNumber AS InvoiceNumber,
+    SalesOrderLineNumber AS InvoiceLineNumber,
+    SalesAmount 
+
+
+FROM FactInternetSales
+
+WHERE CurrencyKey = 100
+
+
+
+
+
+
+
 /*
 EXERCISE TWO
 Create a list of product costs, grouped by invoice numbers.
@@ -157,6 +173,7 @@ Create a summary of expenditure account totals, and then calculate a Pct of Tota
 HINT: Sometimes it's easier to create the subquery separately and then add it to your main
 query.
 */
+
 
 
 
