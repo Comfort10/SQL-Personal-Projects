@@ -147,6 +147,16 @@ Create a summary of expenditure accounts.
 */
 
 
+/*
+EXERCISE EIGHT
+Create a summary of expenditure account totals, and then calculate a Pct of Total.
+1. First, write a query that will return AccountDescription, and amounts corresponding to actuals.
+2. Filter the results to meet the following conditions: Actuals only
+- Canadian division only - Calendar year 2013 only - Expenditure accounts only
+3. Create a subquery to calculate the total sales that meet the same conditions.
+HINT: Sometimes it's easier to create the subquery separately and then add it to your main
+query.
+*/
 
 
 
