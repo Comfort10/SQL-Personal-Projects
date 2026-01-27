@@ -1,3 +1,31 @@
+/* 
+EXERCISE ONE
+We need a detailed list of invoices and invoice line numbers, but we're only interested in currency key 100.
+1. Write a query to return InvoiceNumber, Invoice
+LineNumber and SalesAmount from the FactInternetSales table.
+2. Return only lines WHERE the currency key is 100.
+Hint: Since line number is the lowest level of detail in the FactInternetSales table, you won't need to use GROUP
+BY. 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 EXERCISE ONE
 Sales territory 1 need a summary of their sales for the lead up period to Christmas.
@@ -76,5 +104,6 @@ SELECT
 
 
 FROM DimCustomer
+
 
 WHERE HouseOwnerFlag >= 1 AND NumberCarsOwned > 1 
