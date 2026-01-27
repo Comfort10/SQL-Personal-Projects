@@ -8,6 +8,13 @@ Hint: Since line number is the lowest level of detail in the FactInternetSales t
 BY. 
 */
 
+/*
+EXERCISE TWO
+Create a list of product costs, grouped by invoice numbers.
+1. Write a query to return Invoice Number and TotalProductCost from the FactInternetSales table.
+2. Return only invoices that HAVE a total product cost per Invoice Number > 2000.
+Hint: You first need to group by the invoice to get the total and then filter.
+*/
 
 
 
@@ -107,3 +114,4 @@ FROM DimCustomer
 
 
 WHERE HouseOwnerFlag >= 1 AND NumberCarsOwned > 1 
+
