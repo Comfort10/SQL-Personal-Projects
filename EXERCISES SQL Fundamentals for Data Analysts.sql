@@ -136,6 +136,15 @@ a list of all current Sales Representatives or Sales Managers in the European te
 */
 
 
+/*
+EXERCISE SEVEN
+Create a summary of expenditure accounts.
+1. Write a query that will return the sum of actuals from the FactFinance table.
+2. Filter the data to meet the following conditions: -January, 2011 only
+- Southwest Division only - expenditure accounts only
+3. For each row, list the Organization, Account Type and Account Name.
+4. Group the rows by organization and account.
+*/
 
 
 
