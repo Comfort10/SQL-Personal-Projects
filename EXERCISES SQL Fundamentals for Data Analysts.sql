@@ -34,7 +34,7 @@ Hint: You first need to group by the invoice to get the total and then filter.
 
 
 /*
-EXERCISE ONE
+EXERCISE THREE
 Sales territory 1 need a summary of their sales for the lead up period to Christmas.
 1. Write a query against the FactInternet
 Sales table that returns orders placed in December for the Sales Territory 1
@@ -73,7 +73,7 @@ WHERE SalesTerritoryKey = 1 AND DATENAME(month, OrderDate) = N'December'
 
 
 /*
-EXERCISE TWO
+EXERCISE FOUR
 
 Marketing need a list of homeowner customers, along with the number of cars owned.
 1. Write a query against the dimCustomer table that returns all customers that are homeowners and have more than 1 car.
@@ -112,6 +112,54 @@ SELECT
 
 FROM DimCustomer
 
-
 WHERE HouseOwnerFlag >= 1 AND NumberCarsOwned > 1 
+
+
+/*
+EXERCISE FIVE
+Summarize the Internet Sales by Subcategory and return the top 5 subcategories.
+1. Write a query that returns the top 5 best-selling subcategories by SalesAmount.
+2. We're only interested in sales from our website (internet sales).
+3. Finally, the data should only include sales where the country is United States and the currency is US Dollar
+4. You are avoid using the view we created.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
