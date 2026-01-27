@@ -19,11 +19,6 @@ FROM FactInternetSales
 WHERE CurrencyKey = 100
 
 
-
-
-
-
-
 /*
 EXERCISE TWO
 Create a list of product costs, grouped by invoice numbers.
@@ -33,20 +28,15 @@ Hint: You first need to group by the invoice to get the total and then filter.
 */
 
 
+SELECT 
+    SalesOrderNumber AS InvoiceNumber,
+    TotalProductCost AS TotalProductCost
 
+FROM FactInternetSales
 
+GROUP BY SalesOrderNumber, TotalProductCost
 
-
-
-
-
-
-
-
-
-
-
-
+HAVING TotalProductCost > 2000
 
 
 /*
@@ -173,6 +163,7 @@ Create a summary of expenditure account totals, and then calculate a Pct of Tota
 HINT: Sometimes it's easier to create the subquery separately and then add it to your main
 query.
 */
+
 
 
 
