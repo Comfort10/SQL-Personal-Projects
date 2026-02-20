@@ -151,8 +151,7 @@ Summarize the Internet Sales by Subcategory and return the top 5 subcategories.
 /*
 EXERCISE SEVEN
 It's performance review time. HR Europe need to see sales by sales representative, and by currency.
-1. Write a query that will return
-a list of all current Sales Representatives or Sales Managers in the European territory.
+1. Write a query that will return a list of all current Sales Representatives or Sales Managers in the European territory.
 2. For each person, HR need to see sales amounts grouped by currency.
 3. Please include the following fields: Full employee name, Employee Title, Currency Name and total sales amount
 4. The query should be sorted by Employee Name and Sales Amount.
@@ -180,4 +179,5 @@ Create a summary of expenditure account totals, and then calculate a Pct of Tota
 HINT: Sometimes it's easier to create the subquery separately and then add it to your main
 query.
 */
+
 
