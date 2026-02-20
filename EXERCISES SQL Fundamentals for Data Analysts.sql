@@ -143,7 +143,6 @@ Summarize the Internet Sales by Subcategory and return the top 5 subcategories.
 1. Write a query that returns the top 5 best-selling subcategories by SalesAmount.
 2. We're only interested in sales from our website (internet sales).
 3. Finally, the data should only include sales where the country is United States and the currency is US Dollar
-4. You are avoid using the view we created.
 */
 
 
@@ -181,3 +180,4 @@ Create a summary of expenditure account totals, and then calculate a Pct of Tota
 HINT: Sometimes it's easier to create the subquery separately and then add it to your main
 query.
 */
+
